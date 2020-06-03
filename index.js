@@ -44,9 +44,9 @@ const regels = member.guild.channels.find("name", "🚫regels");
 
 if (!channel) return;
 
-channel.send(`>hey ${member} welkom.
->Dit is een Nederlandse FiveM shop hier kan verschilnde dingen kopen!
->Lees nu A.U.B. ${regels}!`);
+channel.send(`> hey ${member} welkom.
+> Dit is een Nederlandse FiveM shop hier kan verschilnde dingen kopen!
+> Lees nu A.U.B. ${regels}!`);
 });
 
 
@@ -69,40 +69,10 @@ bot.on("ready", async () => {
         bot.user.setActivity(status, {type: "WATCHING"});
 
     }, 3000)
-});
+});  
+     
 bot.on('message', message => {
-    const ticket = member.guild.channels.find("name", "📩ticket-aanmaken");
-    if(message.content.toLowerCase() === 'Hoe maak ik een ticket aan?');
-        message.channel.send(`hay ${member}, dat kan via de channal ${ticket}!`);
-});
-        
-bot.on('message', message => {
-    const ticket = member.guild.channels.find("name", "📩ticket-aanmaken");
-    if(message.content.toLowerCase() === 'Hoe maak ik een ticket aan')
-        message.channel.send(`hay ${member}, dat kan via de channal ${ticket}!`);
-});
-        
-bot.on('message', message => {
-    const ticket = member.guild.channels.find("name", "📩ticket-aanmaken");
-    if(message.content.toLowerCase() === 'waar maak ik een ticket aan')
-        message.channel.send(`hay ${member}, dat kan via de channal ${ticket}!`);
-});
-        
-bot.on('message', message => {
-    const ticket = member.guild.channels.find("name", "📩ticket-aanmaken");
-    if(message.content.toLowerCase() === 'waar maak ik een ticket aan?')
-        message.channel.send(`hay ${member}, dat kan via de channal ${ticket}!`);
-});
-        
-bot.on('message', message => {
-    const ticket = member.guild.channels.find("name", "📩ticket-aanmaken");
-    if(message.content.toLowerCase() === 'Hoe maak ik een ticket aan?')
-        message.channel.send(`hay ${member}, dat kan via de channal ${ticket}!`);
-});
-        
-bot.on('message', message => {
-    const ticket = member.guild.channels.find("name", "📩ticket-aanmaken");
-    if(message.content.toLowerCase() === 'hoe ticket aanmaken?')
+    if(message.content.toLowerCase() === 'sdfsffsdafs4rq23r23fddfdfsfsf')
         message.channel.send(`hay ${member}, dat kan via de channal ${ticket}!`);
 });
         
