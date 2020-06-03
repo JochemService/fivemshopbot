@@ -44,7 +44,7 @@ const regels = member.guild.channels.find("name", "🚫regels");
 
 if (!channel) return;
 
-channel.send(`> hey ${member} welkom.
+channel.send(`> Hey ${member} welkom.
 > Dit is een Nederlandse FiveM shop hier kan verschilnde dingen kopen!
 > Lees nu A.U.B. ${regels}!`);
 });
