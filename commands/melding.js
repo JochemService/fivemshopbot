@@ -47,6 +47,7 @@ module.exports.run = async (bot, message, args) => {
     var announcementMessage = new discord.RichEmbed()
         .setTitle("mededeling")
         .setColor(options.kleur)
+        .setThumbnail("https://cdn.discordapp.com/attachments/686994274059026489/719967519175082095/dutchfivemshoplogo.png")
         .setDescription(`Bericht van de server. \n\n **${options.titel}** \n\n ${options.bericht} \n`)
         .setTimestamp();
 

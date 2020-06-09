@@ -47,7 +47,7 @@ module.exports.run = async (bot, message, args) => {
 
         .setColor(options.kleur)
         .setDescription(`${options.bericht}`)
-        .setThumbnail("https://cdn.discordapp.com/attachments/513693851916042243/717768412117336194/fivem.png")
+        .setThumbnail("https://cdn.discordapp.com/attachments/686994274059026489/719967519175082095/dutchfivemshoplogo.png")
         .setTimestamp();
 
     // Kanaal krijgen waar het verzonden moet worden.
